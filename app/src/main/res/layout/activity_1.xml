@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123123"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="one"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+    <myapp.myviewpagerdemo.ui.ChildViewPager
+        android:id="@+id/one_pager"
+        android:background="#256256"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tv_one"
+        >
+
+    </myapp.myviewpagerdemo.ui.ChildViewPager>
+</RelativeLayout>
