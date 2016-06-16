@@ -49,6 +49,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void initView() {
+
         viewPager= (ViewPager) findViewById(R.id.viewpager);
         pagerTabStrip= (PagerTabStrip) findViewById(R.id.pagertab);
         pagerTabStrip.setTabIndicatorColor(getResources().getColor(android.R.color.holo_green_dark));
